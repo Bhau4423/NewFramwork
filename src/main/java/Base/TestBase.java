@@ -28,7 +28,7 @@ public class TestBase {
 	//	driver.get("https://kite.zerodha.com/");
 		driver.get(readProprtyfile("Url"));
 		driver.manage().timeouts().implicitlyWait(25,	TimeUnit.SECONDS);
-		
+		// driver.get(readProprtyfile("Url"));
 	}
 
 }
